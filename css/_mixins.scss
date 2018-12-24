@@ -1,4 +1,4 @@
-<!-- Styles of font for h1 -->
+/* Styles of font for h1 */
 
 @mixin font_h1($font-family_h1:null, $font-size_h1:null, $font-weight_h1:null, $font-style_h1:null, $line-height_h1:null, $color_h1:null, $leter-spacing_h1:null) {
     font-family: $font-family_h1;
@@ -12,7 +12,7 @@
 
 
 
-<!-- Styles of font for h2 -->
+/* Styles of font for h2 */
 
 @mixin font_h2($font-family_h2:null, $font-size_h2:null, $font-weight_h2:null, $font-style_h2:null, $line-height_h2:null, $color_h2:null, $leter-spacing_h2:null) {
     font-family: $font-family_h2;
@@ -26,7 +26,7 @@
 
 
 
-<!-- Styles of font for h3 -->
+/* Styles of font for h3 */
 
 @mixin font_h3($font-family_h3:null, $font-size_h3:null, $font-weight_h3:null, $font-style_h3:null, $line-height_h3:null, $color_h3:null, $leter-spacing_h3:null) {
     font-family: $font-family_h3;
@@ -40,7 +40,7 @@
 
 
 
-<!-- Styles of font for h4 -->
+/* Styles of font for h4 */
 
 @mixin font_h4($font-family_h4:null, $font-size_h4:null, $font-weight_h4:null, $font-style_h4:null, $line-height_h4:null, $color_h4:null, $leter-spacing_h4:null) {
     font-family: $font-family_h4;
@@ -54,7 +54,7 @@
 
 
 
-<!-- Styles of font for p -->
+/* Styles of font for p */
 
 @mixin font_p($font-family_p:null, $font-size_p:null, $font-weight_p:null, $font-style_p:null, $line-height_p:null, $color_p:null, $leter-spacing_p:null) {
     font-family: $font-family_p;
@@ -68,9 +68,9 @@
 
 
 
-<!-- Styles of font for nav -->
+/* Styles of font for nav */
 
-@mixin font_nav($font-family_nav:null, $font-size_nav:null, $font-weight_nav:null, $font-style_nav:null, $line-height_nav:null, $color_nav:null, $leter-spacing_nav:null) {
+@mixin font_nav($font-family_nav, $font-size_nav, $font-weight_nav, $font-style_nav, $line-height_nav, $color_nav, $leter-spacing_nav) {
     font-family: $font-family_nav;
     font-size: $font-size_nav;
     font-weight: $font-weight_nav;
@@ -82,7 +82,7 @@
 
 
 
-<!-- Styles of font for menu -->
+/* Styles of font for menu */
 
 @mixin font_menu($font-family_menu:null, $font-size_menu:null, $font-weight_menu:null, $font-style_menu:null, $line-height_menu:null, $color_menu:null, $leter-spacing_menu:null) {
     font-family: $font-family_menu;
@@ -96,7 +96,7 @@
 
 
 
-<!-- Styles of font for menu_web -->
+/* Styles of font for menu_web */
 
 @mixin font_menu_web($font-family_menu_web:null, $font-size_menu_web:null, $font-weight_menu_web:null, $font-style_menu_web:null, $line-height_menu_web:null, $color_menu_web:null, $leter-spacing_menu_web:null) {
     font-family: $font-family_menu_web;
@@ -109,7 +109,7 @@
 }
 
 
-<!-- Styles of font for buttons -->
+/* Styles of font for buttons */
 
 @mixin font_button($font-family_button:null, $font-size_button:null, $font-weight_button:null, $font-style_button:null, $line-height_button:null, $color_button:null, $leter-spacing_button:null) {
     font-family: $font-family_button;

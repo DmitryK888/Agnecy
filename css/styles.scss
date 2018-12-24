@@ -1,5 +1,5 @@
-@import '_variables.scss';
-@import '_mixins.scss';
+@import "_variables.scss";
+@import "_mixins.scss";
 
 
 html, body {
@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 
@@ -29,13 +29,13 @@ body {
 .header {
     width: 100%;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 30px 0 30px 0;
     box-sizing: border-box;
     background-color: $background-color_header;
     
     .nav {
         width: 80%;
-        margin: 0 0 20px 0;
+        margin: 0 auto 40px auto;
         padding: 0;
         box-sizing: border-box;
         background-color: $background-color_nav;
@@ -52,12 +52,14 @@ body {
                 margin: 0;
                 padding: 0;
                 
+              
                 a{
+                    display: block;
                     text-decoration: none;
-                    @include font_nav;
+                    @include font_nav($font-family_nav, $font-size_nav, $font-weight_nav, $font-style_nav, $line-height_nav, $color_nav, $leter-spacing_nav);
                     padding: 10px;
                     
-                    $:hover {
+                    &:hover {
                         background-color: $background-color_button;
                         }
                 }
@@ -68,36 +70,40 @@ body {
     
     .description {
         width: 45%;
+        min-width: 425px;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         
         h1 {
-            margin: 0;
+            margin: 0 0 20px 0;
             padding: 0;
-            @include font_h1;
+            @include font_h1($font-family_h1, $font-size_h1, $font-weight_h1, $font-style_h1, $line-height_h1, $color_h1, $leter-spacing_h1);
             text-align: left;
         }
         
         p {
-            margin: 0;
+            margin: 0 0 20px 0;
             padding: 0;
-            @include font_p;
+            @include font_p($font-family_p, $font-size_p, $font-weight_p, $font-style_p, $line-height_p, $color_p, $leter-spacing_p);
             text-align: left;
         }
         
         .contactUs {
             display: inline-block;
+            width: 40%;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-align: center;
             
             a{
                 text-decoration: none;
                 display: block;
-                width: 40%;
+                width: 100%;
+                padding: 5px 0 5px 0;
                 border-radius: 5px;
-                @include font_button;
+                @include font_button($font-family_button, $font-size_button, $font-weight_button, $font-style_button, $line-height_button, $color_button, $leter-spacing_button);
                 background-color: $background-color_button;
                 
                 &:hover {
@@ -109,14 +115,20 @@ body {
     
     
     
-    .video {
-        max-width: 45%;
+    .view {
+        width: 45%;
         min-width: 320px;
         min-height: 200px;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        box-shadow: 10px 10px 5px #d6cfd1, -10px -10px 5px #d6cfd1;
+        box-shadow: 20px 20px 20px #d6cfd1, -20px -20px 20px #d6cfd1, -20px 20px 20px #d6cfd1, 20px -20px 20px #d6cfd1;
+        
+        video {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
     }
 
 }
