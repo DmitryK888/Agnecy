@@ -1,8 +1,8 @@
 <!-- Styles of font for h1 -->
 
-$font-family_h1: OpenSans-Extrabold, Arial, Verdana, sans-serif;
+$font-family_h1: OpenSans, Arial, Verdana, sans-serif;
 $font-size_h1: 60px;
-$font-weight_h1: 700;
+$font-weight_h1: 800;
 $font-style_h1: normal;
 $line-height_h1: 72px;
 $color_h1: #000000;
@@ -12,9 +12,9 @@ $leter-spacing_h1: 6px;
 
 <!-- Styles of font for h2 -->
 
-$font-family_h2: OpenSans-Extrabold, Arial, Verdana, sans-serif;
+$font-family_h2: OpenSans, Arial, Verdana, sans-serif;
 $font-size_h2: 42px;
-$font-weight_h2: 600;
+$font-weight_h2: bold;
 $font-style_h2: normal;
 $line-height_h2: 54px;
 $color_h2: rgba(0,0,0,0.8);
@@ -24,9 +24,9 @@ $leter-spacing_h2: 4px;
 
 <!-- Styles of font for h3 -->
 
-$font-family_h3: OpenSans-Semibold, Arial, Verdana, sans-serif;
+$font-family_h3: OpenSans, Arial, Verdana, sans-serif;
 $font-size_h3: 30px;
-$font-weight_h3: 500;
+$font-weight_h3: 600;
 $font-style_h3: normal;
 $line-height_h3: 36px;
 $color_h3: rgba(0,0,0,0.8);
@@ -36,9 +36,9 @@ $leter-spacing_h3: 3px;
 
 <!-- Styles of font for h4 -->
 
-$font-family_h4: OpenSans-Semibold, Arial, Verdana, sans-serif;
+$font-family_h4: OpenSans, Arial, Verdana, sans-serif;
 $font-size_h4: 24px;
-$font-weight_h4: 400;
+$font-weight_h4: 600;
 $font-style_h4: normal;
 $line-height_h4: 29px;
 $color_h4: rgba(0,0,0,0.7);
@@ -50,7 +50,7 @@ $leter-spacing_h4: 2px;
 
 $font-family_p: OpenSans, Arial, Verdana, sans-serif;
 $font-size_p: 16px;
-$font-weight_p: 400;
+$font-weight_p: normal;
 $font-style_p: normal;
 $line-height_p: 28px;
 $color_p: #000000;
@@ -60,9 +60,9 @@ $leter-spacing_p: 1px;
 
 <!-- Styles of font for nav -->
 
-$font-family_nav: OpenSans-Bold, Arial, Verdana, sans-serif;
+$font-family_nav: OpenSans, Arial, Verdana, sans-serif;
 $font-size_nav: 14px;
-$font-weight_nav: 600;
+$font-weight_nav: bold;
 $font-style_nav: normal;
 $line-height_nav: 24px;
 $color_nav: #e0e0e0;
@@ -72,9 +72,9 @@ $leter-spacing_nav: 1px;
 
 <!-- Styles of font for menu -->
 
-$font-family_menu: OpenSans-Semibold, Arial, Verdana, sans-serif;
+$font-family_menu: OpenSans, Arial, Verdana, sans-serif;
 $font-size_menu: 22px;
-$font-weight_menu: 400;
+$font-weight_menu: normal;
 $font-style_menu: normal;
 $line-height_menu: 24px;
 $color_menu: rgba(0,0,0,0.7);
@@ -84,9 +84,9 @@ $leter-spacing_menu: 1px;
 
 <!-- Styles of font for menu_web -->
 
-$font-family_menu_web: OpenSans-Italic, Arial, Verdana, sans-serif;
+$font-family_menu_web: OpenSans, Arial, Verdana, sans-serif;
 $font-size_menu_web: 18px;
-$font-weight_menu_web: 500;
+$font-weight_menu_web: normal;
 $font-style_menu_web: italic;
 $line-height_menu_web: 24px;
 $color_menu_web: rgba(0,0,0,0.8);
@@ -94,16 +94,28 @@ $leter-spacing_menu_web: 1px;
 
 
 
+<!-- Styles of font for buttons -->
 
-<!-- Background-color of nav in header-->
+$font-family_button: OpenSans, Arial, Verdana, sans-serif;
+$font-size_button: 18px;
+$font-weight_button: bold;
+$font-style_button: normal;
+$line-height_button: 34px;
+$color_button: #ffffff;
+$leter-spacing_button: 1px;
 
-$background-color_nav: #000000;
 
 
 
 <!-- Background-color of header-->
 
 $background-color_header: #f6f2f2;
+
+
+
+<!-- Background-color of nav in header-->
+
+$background-color_nav: #000000;
 
 
 

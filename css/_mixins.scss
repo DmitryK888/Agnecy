@@ -109,7 +109,17 @@
 }
 
 
+<!-- Styles of font for buttons -->
 
+@mixin font_button($font-family_button:null, $font-size_button:null, $font-weight_button:null, $font-style_button:null, $line-height_button:null, $color_button:null, $leter-spacing_button:null) {
+    font-family: $font-family_button;
+    font-size: $font-size_button;
+    font-weight: $font-weight_button;
+    font-style: $font-style_button;
+    line-height: $line-height_button;
+    color: $color_button;
+    letter-spacing: $leter-spacing_button;
+}
 
 
 
