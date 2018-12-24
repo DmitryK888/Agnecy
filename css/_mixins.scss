@@ -1,0 +1,141 @@
+<!-- Styles of font for h1 -->
+
+@mixin font_h1($font-family_h1:null, $font-size_h1:null, $font-weight_h1:null, $font-style_h1:null, $line-height_h1:null, $color_h1:null, $leter-spacing_h1:null) {
+    font-family: $font-family_h1;
+    font-size: $font-size_h1;
+    font-weight: $font-weight_h1;
+    font-style: $font-style_h1;
+    line-height: $line-height_h1;
+    color: $color_h1;
+    letter-spacing: $leter-spacing_h1;
+}
+
+
+
+<!-- Styles of font for h2 -->
+
+@mixin font_h2($font-family_h2:null, $font-size_h2:null, $font-weight_h2:null, $font-style_h2:null, $line-height_h2:null, $color_h2:null, $leter-spacing_h2:null) {
+    font-family: $font-family_h2;
+    font-size: $font-size_h2;
+    font-weight: $font-weight_h2;
+    font-style: $font-style_h2;
+    line-height: $line-height_h2;
+    color: $color_h2;
+    letter-spacing: $leter-spacing_h2;
+}
+
+
+
+<!-- Styles of font for h3 -->
+
+@mixin font_h3($font-family_h3:null, $font-size_h3:null, $font-weight_h3:null, $font-style_h3:null, $line-height_h3:null, $color_h3:null, $leter-spacing_h3:null) {
+    font-family: $font-family_h3;
+    font-size: $font-size_h3;
+    font-weight: $font-weight_h3;
+    font-style: $font-style_h3;
+    line-height: $line-height_h3;
+    color: $color_h3;
+    letter-spacing: $leter-spacing_h3;
+}
+
+
+
+<!-- Styles of font for h4 -->
+
+@mixin font_h4($font-family_h4:null, $font-size_h4:null, $font-weight_h4:null, $font-style_h4:null, $line-height_h4:null, $color_h4:null, $leter-spacing_h4:null) {
+    font-family: $font-family_h4;
+    font-size: $font-size_h4;
+    font-weight: $font-weight_h4;
+    font-style: $font-style_h4;
+    line-height: $line-height_h4;
+    color: $color_h4;
+    letter-spacing: $leter-spacing_h4;
+}
+
+
+
+<!-- Styles of font for p -->
+
+@mixin font_p($font-family_p:null, $font-size_p:null, $font-weight_p:null, $font-style_p:null, $line-height_p:null, $color_p:null, $leter-spacing_p:null) {
+    font-family: $font-family_p;
+    font-size: $font-size_p;
+    font-weight: $font-weight_p;
+    font-style: $font-style_p;
+    line-height: $line-height_p;
+    color: $color_p;
+    letter-spacing: $leter-spacing_p;
+}
+
+
+
+<!-- Styles of font for nav -->
+
+@mixin font_nav($font-family_nav:null, $font-size_nav:null, $font-weight_nav:null, $font-style_nav:null, $line-height_nav:null, $color_nav:null, $leter-spacing_nav:null) {
+    font-family: $font-family_nav;
+    font-size: $font-size_nav;
+    font-weight: $font-weight_nav;
+    font-style: $font-style_nav;
+    line-height: $line-height_nav;
+    color: $color_nav;
+    letter-spacing: $leter-spacing_nav;
+}
+
+
+
+<!-- Styles of font for menu -->
+
+@mixin font_menu($font-family_menu:null, $font-size_menu:null, $font-weight_menu:null, $font-style_menu:null, $line-height_menu:null, $color_menu:null, $leter-spacing_menu:null) {
+    font-family: $font-family_menu;
+    font-size: $font-size_menu;
+    font-weight: $font-weight_menu;
+    font-style: $font-style_menu;
+    line-height: $line-height_menu;
+    color: $color_menu;
+    letter-spacing: $leter-spacing_menu;
+}
+
+
+
+<!-- Styles of font for menu_web -->
+
+@mixin font_menu_web($font-family_menu_web:null, $font-size_menu_web:null, $font-weight_menu_web:null, $font-style_menu_web:null, $line-height_menu_web:null, $color_menu_web:null, $leter-spacing_menu_web:null) {
+    font-family: $font-family_menu_web;
+    font-size: $font-size_menu_web;
+    font-weight: $font-weight_menu_web;
+    font-style: $font-style_menu_web;
+    line-height: $line-height_menu_web;
+    color: $color_menu_web;
+    letter-spacing: $leter-spacing_menu_web;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
