@@ -40,9 +40,10 @@ body {
   display: flex;
   justify-content: space-between; }
 
+/* Block header */
 .header {
   width: 100%;
-  margin: 0 0 30px 0;
+  margin: 0 0 50px 0;
   padding: 30px 0 30px 0;
   box-sizing: border-box;
   background-color: #f6f2f2; }
@@ -80,7 +81,8 @@ body {
     min-width: 425px;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    align-self: flex-start; }
     .header .description h1 {
       margin: 0 0 20px 0;
       padding: 0;
@@ -90,7 +92,7 @@ body {
       font-style: normal;
       line-height: 1.2;
       color: #000000;
-      letter-spacing: 6px;
+      letter-spacing: 4px;
       text-align: left; }
     .header .description p {
       margin: 0 0 20px 0;
@@ -101,7 +103,7 @@ body {
       font-style: normal;
       line-height: 17px;
       color: #000000;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       text-align: left; }
     .header .description .contactUs {
       display: inline-block;
@@ -133,11 +135,193 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    box-shadow: 20px 20px 20px #d6cfd1, -20px -20px 20px #d6cfd1, -20px 20px 20px #d6cfd1, 20px -20px 20px #d6cfd1; }
+    align-self: flex-start;
+    box-shadow: 20px 20px 20px #d6cfd1, -20px -20px 20px #d6cfd1, -20px 20px 20px #d6cfd1, 20px -20px 20px #d6cfd1, inset 0 -20px 20px #d6cfd1;
+    border: none; }
     .header .view video {
       width: 100%;
       height: 100%;
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      border: none; }
+
+/* Block main */
+/* Section provide */
+.provide .description {
+  width: 45%;
+  min-width: 425px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-self: flex-start; }
+  .provide .description h2 {
+    margin: 0 0 40px 0;
+    padding: 0;
+    font-family: OpenSans, Arial, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+    text-align: left; }
+  .provide .description p {
+    margin: 0 0 50px 0;
+    padding: 0;
+    font-family: OpenSans, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 17px;
+    color: #000000;
+    letter-spacing: 0.5px;
+    text-align: left; }
+  .provide .description .learnMore {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center; }
+    .provide .description .learnMore a {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      padding: 5px 0 5px 0;
+      border: 2px solid #ff2d2d;
+      border-radius: 5px;
+      font-family: OpenSans, Arial, Verdana, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      line-height: 19px;
+      color: #ff2d2d;
+      letter-spacing: 1px;
+      background-color: #ffffff; }
+      .provide .description .learnMore a:hover {
+        color: blue;
+        background-color: lime; }
+.provide .details {
+  width: 45%;
+  min-width: 324px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-self: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .provide .details .detail {
+    width: 45%;
+    margin: 0;
+    padding: 0; }
+    .provide .details .detail .picture {
+      display: block;
+      margin: 0 0 10px 0;
+      padding: 0;
+      font-size: 24px;
+      color: #ff2d2d; }
+    .provide .details .detail h4 {
+      margin: 0 0 5px 0;
+      padding: 0;
+      font-family: OpenSans, Arial, Verdana, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.2;
+      color: rgba(0, 0, 0, 0.7);
+      letter-spacing: 1px;
+      text-align: left; }
+    .provide .details .detail p {
+      margin: 0 0 30px 0;
+      padding: 0;
+      font-family: OpenSans, Arial, Verdana, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 17px;
+      color: #000000;
+      letter-spacing: 0.5px;
+      text-align: left; }
+
+.endProvide {
+  width: 80%;
+  margin: 0 auto 50px auto; }
+
+.feature_products h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-family: OpenSans, Arial, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+  text-align: center; }
+.feature_products p {
+  width: 42%;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  font-family: OpenSans, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 17px;
+  color: #000000;
+  letter-spacing: 0.5px;
+  text-align: center; }
+  .feature_products p wbr {
+    display: inline-block; }
+.feature_products .begining__feature_products {
+  width: 10%;
+  margin: 0 auto 50px auto; }
+.feature_products .menu {
+  width: 80%;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff; }
+  .feature_products .menu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .feature_products .menu ul li {
+      display: block;
+      margin: 0;
       padding: 0; }
+      .feature_products .menu ul li a {
+        display: block;
+        text-decoration: none;
+        font-family: OpenSans, Arial, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.2;
+        color: rgba(0, 0, 0, 0.7);
+        letter-spacing: 0.5px;
+        padding: 10px 20px 10px 20px; }
+        .feature_products .menu ul li a:hover {
+          color: #ff2d2d; }
+.feature_products .imgList {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+  .feature_products .imgList figure {
+    width: 24%;
+    margin: 0 0 1% 0;
+    padding: 0;
+    box-sizing: border-box; }
+    .feature_products .imgList figure img {
+      width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
