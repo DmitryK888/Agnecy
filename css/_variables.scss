@@ -25,12 +25,12 @@ $leter-spacing_h2: 1px;
 /* Styles of font for h3 */
 
 $font-family_h3: OpenSans, Arial, Verdana, sans-serif;
-$font-size_h3: 24px;
-$font-weight_h3: 600;
+$font-size_h3: 22px;
+$font-weight_h3: 500;
 $font-style_h3: normal;
 $line-height_h3: 1.2;
 $color_h3: rgba(0,0,0,0.8);
-$leter-spacing_h3: 1px;
+$leter-spacing_h3: 0.5px;
 
 
 
@@ -85,12 +85,12 @@ $leter-spacing_menu: 0.5px;
 /* Styles of font for menu_web */
 
 $font-family_menu_web: OpenSans, Arial, Verdana, sans-serif;
-$font-size_menu_web: 18px;
+$font-size_menu_web: 16px;
 $font-weight_menu_web: normal;
 $font-style_menu_web: italic;
-$line-height_menu_web: 24px;
+$line-height_menu_web: 1.2;
 $color_menu_web: rgba(0,0,0,0.8);
-$leter-spacing_menu_web: 1px;
+$leter-spacing_menu_web: 0.5px;
 
 
 
@@ -121,7 +121,7 @@ $background-color_nav: #000000;
 
 /* Background-color of section design */
 
-$background-color_design: #fcedf1;
+$background-color_design: rgba(247, 138, 143,0.5);
 
 
 
