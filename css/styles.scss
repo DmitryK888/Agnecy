@@ -591,19 +591,12 @@ body {
         padding-bottom: auto;
         
         
-        .contacts__emptyBlock_1 {
-            box-sizing: border-box;
-            width: 10%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        
         .contacts__feedback {
             box-sizing: border-box;
             width: 40%;
             margin: 0;
             padding: 0;
+            order: 2;
             
             .contacts__data {
                 width: 100%;
@@ -670,6 +663,17 @@ body {
                 }
             }
         }
+    
+    
+        .contacts__emptyBlock_1 {
+            box-sizing: border-box;
+            width: 10%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            order: 1;
+        }
+        
         
         .contacts__emptyBlock_2 {
             box-sizing: border-box;
@@ -677,6 +681,7 @@ body {
             height: 100%;
             margin: 0;
             padding: 0;
+            order: 3;
         }
         
         .contacts__info {
@@ -697,6 +702,7 @@ body {
             leter-spacing: 0.5px;
             align-self: stretch;
             margin-bottom: auto;
+            order: 4;
             
             address {
                 display: block;
@@ -715,6 +721,7 @@ body {
             margin: 0;
             padding: 0;
             background-color: $background-color_contacts__info;
+            order: 5;
         }
     }
 

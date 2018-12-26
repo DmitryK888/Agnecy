@@ -557,17 +557,12 @@ body {
   box-sizing: border-box;
   display: flex;
   padding-bottom: auto; }
-  .contacts .contacts__emptyBlock_1 {
-    box-sizing: border-box;
-    width: 10%;
-    height: 100%;
-    margin: 0;
-    padding: 0; }
   .contacts .contacts__feedback {
     box-sizing: border-box;
     width: 40%;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    order: 2; }
     .contacts .contacts__feedback .contacts__data {
       width: 100%;
       margin: 0 0 30px 0;
@@ -634,12 +629,20 @@ body {
         background-color: #ff2d2d; }
         .contacts .contacts__feedback .contacts__button input:hover {
           background-color: green; }
+  .contacts .contacts__emptyBlock_1 {
+    box-sizing: border-box;
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    order: 1; }
   .contacts .contacts__emptyBlock_2 {
     box-sizing: border-box;
     width: 5%;
     height: 100%;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    order: 3; }
   .contacts .contacts__info {
     box-sizing: border-box;
     width: 35%;
@@ -656,7 +659,8 @@ body {
     color: rgba(255, 255, 255, 0.8);
     leter-spacing: 0.5px;
     align-self: stretch;
-    margin-bottom: auto; }
+    margin-bottom: auto;
+    order: 4; }
     .contacts .contacts__info address {
       display: block;
       width: 100%;
@@ -669,7 +673,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #000000; }
+    background-color: #000000;
+    order: 5; }
 
 .footer {
   width: 100;
