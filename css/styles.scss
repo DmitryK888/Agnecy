@@ -587,11 +587,11 @@ body {
         margin: 0 0 50px 0;
         padding: 0;
         box-sizing: border-box;
-        display: flex;
-        padding-bottom: auto;
+        font-size: 0;
         
         
         .contacts__emptyBlock_1 {
+            display: inline-block;
             box-sizing: border-box;
             width: 10%;
             height: 100%;
@@ -600,6 +600,7 @@ body {
         }
         
         .contacts__feedback {
+            display: inline-block;
             box-sizing: border-box;
             width: 40%;
             margin: 0;
@@ -672,6 +673,7 @@ body {
         }
         
         .contacts__emptyBlock_2 {
+            display: inline-block;
             box-sizing: border-box;
             width: 5%;
             height: 100%;
@@ -680,7 +682,7 @@ body {
         }
         
         .contacts__info {
-            
+            display: inline-block;
             box-sizing: border-box;
             width: 35%;
             height: 100%;
@@ -709,6 +711,7 @@ body {
             }
         
         .contacts__emptyBlock_3 {
+            display: inline-block;
             box-sizing: border-box;
             width: 10%;
             height: 100%;

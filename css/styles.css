@@ -555,15 +555,16 @@ body {
   margin: 0 0 50px 0;
   padding: 0;
   box-sizing: border-box;
-  display: flex;
-  padding-bottom: auto; }
+  font-size: 0; }
   .contacts .contacts__emptyBlock_1 {
+    display: inline-block;
     box-sizing: border-box;
     width: 10%;
     height: 100%;
     margin: 0;
     padding: 0; }
   .contacts .contacts__feedback {
+    display: inline-block;
     box-sizing: border-box;
     width: 40%;
     margin: 0;
@@ -635,12 +636,14 @@ body {
         .contacts .contacts__feedback .contacts__button input:hover {
           background-color: green; }
   .contacts .contacts__emptyBlock_2 {
+    display: inline-block;
     box-sizing: border-box;
     width: 5%;
     height: 100%;
     margin: 0;
     padding: 0; }
   .contacts .contacts__info {
+    display: inline-block;
     box-sizing: border-box;
     width: 35%;
     height: 100%;
@@ -664,6 +667,7 @@ body {
       margin: 0;
       padding-left: 30px; }
   .contacts .contacts__emptyBlock_3 {
+    display: inline-block;
     box-sizing: border-box;
     width: 10%;
     height: 100%;
